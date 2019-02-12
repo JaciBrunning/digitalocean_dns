@@ -1,11 +1,11 @@
 DigitalOcean DNS Update
 ===
 
-A small docker image to continuously update DNS Records on DigitalOcean. Useful for doing your own Dynamic DNS without a static IP.
+A small docker image to continuously update DNS Records on DigitalOcean. Useful for doing your own Dynamic DNS without a static IP.  
 https://hub.docker.com/r/jaci/digitalocean_dns
 
 ## Env Vars:
-`API_Key`: Your DigitalOcean API Key. _REQUIRED_.  
+`API_KEY`: Your DigitalOcean API Key. _REQUIRED_.  
 `DOMAIN`: The DigitalOcean Domain you wish to update. _REQUIRED_.  
 `SUBDOMAIN`: The Subdomain you with to update. _REQUIRED_.  
 `TTL`: The TTL, in seconds. Default: 3600 (1 Hr).  
